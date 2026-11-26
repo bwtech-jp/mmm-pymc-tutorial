@@ -1,0 +1,28 @@
+MMM（マーケティング・ミックス・モデリング）入門（ケーススタディ1）
+Copyright 2026 Birdwing Technologies LLC
+
+この教材は Apache License, Version 2.0 のもとで公開しています（LICENSE を参照）。
+
+この教材には、次のものをもとにした部分があります。
+
+1. PyMC-Marketing
+   https://github.com/pymc-labs/pymc-marketing
+   Copyright The PyMC Labs Developers
+   Apache License, Version 2.0
+
+   ノートブックのコードは、PyMC-Marketing の公式ドキュメントにあるケーススタディ
+   「MMM End-to-End Case Study」
+   https://www.pymc-marketing.io/en/stable/notebooks/mmm/mmm_case_study.html
+   のコードをもとに、改変しています。主な変更点：
+   - 1本のノートブックを、学ぶ順に8回に分けた
+   - 日本語の解説、図、手計算での確認、小課題を加えた
+   - C++ コンパイラ（g++）がない環境でも動くように、サンプラーと計算モードの指定を変えた
+   - 予算最適化を、scipy を使った直接の計算に置きかえた
+
+2. データ（case_study_data.csv）
+   この教材はデータのファイルを含みません。ノートブックの最初のセルが、
+   PyMC-Marketing のリポジトリから取得します。
+   もとのデータは次のリポジトリで公開されているものです。
+   https://github.com/sibylhe/mmm_stan
+   Copyright (c) 2021 Sibyl He
+   MIT License

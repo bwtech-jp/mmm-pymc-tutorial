@@ -1,0 +1,7 @@
+# ノートブックが実行時に作るもの（データ・学習結果・作った資料）は、リポジトリに入れない
+data/
+models/
+outputs/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
